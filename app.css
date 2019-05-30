@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #cab7b7 url('../img/morocco-blue.png');
+    font-family: 'Coda', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.deck {
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #4c9cdf 0%, #744d94 100%);
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(157, 167, 177, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #8191a0;
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+    transform: rotateY(0);
+    background: #1db3dd;
+    cursor: default;
+}
+
+.deck .card.show {
+    font-size: 40px;
+    pointer-events: none;
+}
+
+.deck .card.match {
+    cursor: default;
+    background: #458f89;
+    font-size: 50px;
+}
+
+.deck .card.disabled {
+    pointer-events: none;
+}
+
+
+.score-panel {
+    text-align: left;
+    width: 400px;
+    margin-bottom: 10px;
+}
+ 
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+.timer {
+    margin: -23px 0px 0px 250px;
+}
+
+.timer-label {
+    margin: -23px 0px 0px 150px;
+}
+
