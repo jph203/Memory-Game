@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    background: #cab7b7 url('../img/morocco-blue.png');
+    background: #cab7b7 url('./img/morocco-blue.png');
     font-family: 'Coda', cursive;
 }
 
