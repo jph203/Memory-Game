@@ -1,15 +1,17 @@
-#Front End Web Developer
+# Udacity Memory Game Project 2 - Front End Web Development 
 
-##Memory Game
+This Project is apart of Udacity's Front End Web Development "Nanodegree".
+- The project had us create the classic memory game.  The task was to code the game either from scratch or with some html (a skeleton) already provided to structure the deck of cards (16 cards of 2 pairs.)  I used the skeleton as a guideline in order to complete this project. 
 
-####This is a Matching Game.  Click the cards to find a match in the deck.  Try to match all 16 cards as quick as you can!
+## Memory Game Logic
+- The game randomly shuffles the cards. A user wins once all cards have successfully been matched.
 
-####An easy game for users to play!  Focuses primarily on DOM manipulation, variables and object-oriented programming. 
+## Features
+- Once all the cards have been matched, a Congratulations Pop-Up appears and you can click the restart button to start over again.  A timer begins, once you have started the game.  
 
 
-###It's a Single Page Application
-- HTML5
-- Vanilla JS
-- CSS 
+
+
+
 
 
